@@ -866,7 +866,8 @@
     </p>
 
     <div class="waitlist-card">
-      <form id="waitlist-form" novalidate>
+      <form id="waitlist-form" novalidate data-netlify="true" name="waitlist">
+        <input type="hidden" name="form-name" value="waitlist" />
         <div class="form-row">
           <div class="form-group">
             <label for="first-name">First Name</label>
